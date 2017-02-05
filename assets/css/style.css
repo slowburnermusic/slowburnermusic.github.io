@@ -1,0 +1,208 @@
+html,
+body,
+.view {
+    height: 100%;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    background-color: #19202b;
+    font-weight: 400;
+}
+
+.view {
+    background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 100%, rgba(0, 0, 0, 0.1) 100%), url(../img/slowburner-background-2.jpg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /*position: relative;*/
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    display: inline-block;
+}
+
+li a {
+    text-decoration: none;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+/* Generic */
+.capital-letters {
+    text-transform: uppercase;
+}
+
+.text-centered {
+    text-align: center;
+}
+
+hr {
+    background: #fff;
+    height: 1px;
+}
+
+/* Margins */
+.big-top-margin {
+    margin-top: 100px;
+}
+
+.huge-top-margin {
+    margin-top: 150px; 
+}
+
+/* Text size */
+.small-text {
+    font-size: 8px;
+}
+
+.normal-text {
+    font-size: 15px;
+}
+
+.big-text {
+    font-size: 18px;
+}
+
+.huge-text {
+    font-size: 25px;
+}
+
+/* Text kerning size */
+.normal-kerning {
+    letter-spacing: 0px;
+}
+
+.big-kerning {
+    letter-spacing: 1px;
+}
+
+.huge-kerning {
+    letter-spacing: 2px;
+}
+
+/* Bold */
+
+.bold {
+   font-weight: 700; 
+}
+
+/* Social icons*/
+/* bandcamp */
+.bandcamp-icon {
+    width: 63px;
+    height: 63px;
+    background: url(../img/social-icons.png) 0 63px;
+}
+
+.bandcamp-icon:hover {
+    width: 63px;
+    height: 63px;
+    background: url(../img/social-icons.png) 0 0;
+}
+
+/* soundcloud */
+.soundcloud-icon {
+    width: 63px;
+    height: 63px;
+    background: url(../img/social-icons.png) -63px 63px;
+}
+
+.soundcloud-icon:hover {
+    width: 63px;
+    height: 63px;
+    background: url(../img/social-icons.png) -63px 0;
+}
+
+/* facebook */
+.facebook-icon {
+    width: 63px;
+    height: 63px;
+    background: url(../img/social-icons.png) -126px 63px;
+}
+
+.facebook-icon:hover {
+    width: 63px;
+    height: 63px;
+    background: url(../img/social-icons.png) -126px 0;
+}
+
+/* instagram */
+.instagram-icon {
+    width: 63px;
+    height: 63px;
+    background: url(../img/social-icons.png) -189px 63px;
+}
+
+.instagram-icon:hover {
+    width: 63px;
+    height: 63px;
+    background: url(../img/social-icons.png) -189px 0;
+}
+
+/* twitter */
+.twitter-icon {
+    width: 63px;
+    height: 63px;
+    background: url(../img/social-icons.png) -252px 63px;
+}
+
+.twitter-icon:hover {
+    width: 63px;
+    height: 63px;
+    background: url(../img/social-icons.png) -252px 0;
+}
+
+/* youtube */
+.youtube-icon {
+    width: 63px;
+    height: 63px;
+    background: url(../img/social-icons.png) -315px 63px;
+}
+
+.youtube-icon:hover {
+    width: 63px;
+    height: 63px;
+    background: url(../img/social-icons.png) -315px 0;
+}
+
+/* vimeo */
+.vimeo-icon {
+    width: 63px;
+    height: 63px;
+    background: url(../img/social-icons.png) -378px 63px;
+}
+
+.vimeo-icon:hover {
+    width: 63px;
+    height: 63px;
+    background: url(../img/social-icons.png) -378px 0;
+}
+
+
+
+/* Footer */
+footer {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 20px;
+    width: 100%;
+    overflow:hidden;
+}
+
+footer p {
+    font-size: 8px;
+    letter-spacing: 0px;
+    color: #416b7d;
+    text-transform: uppercase;
+    text-align: center;
+}
