@@ -104,105 +104,96 @@ hr {
 }
 
 /* Social icons*/
-.bandcamp-test {
-    width: 30px;
-    height: 30px;
-    background: url(../img/bandcamp30px.png);
-}
-
-
 /* bandcamp */
 .bandcamp-icon {
-    width: 63px;
-    height: 63px;
-    background: url(../img/social-icons.png) 0 63px;
+    width: 37px;
+    height: 37px;
+    background: url(../img/social-icons-37x37.png) 0 37px;
 }
 
 .bandcamp-icon:hover {
-    width: 63px;
-    height: 63px;
-    background: url(../img/social-icons.png) 0 0;
+    width: 37px;
+    height: 37px;
+    background: url(../img/social-icons-37x37.png) 0 0;
 }
 
 /* soundcloud */
 .soundcloud-icon {
-    width: 63px;
-    height: 63px;
-    background: url(../img/social-icons.png) -63px 63px;
+    width: 37px;
+    height: 37px;
+    background: url(../img/social-icons-37x37.png) -37px 37px;
 }
 
 .soundcloud-icon:hover {
-    width: 63px;
-    height: 63px;
-    background: url(../img/social-icons.png) -63px 0;
+    width: 37px;
+    height: 37px;
+    background: url(../img/social-icons-37x37.png) -37px 0;
 }
 
 /* facebook */
 .facebook-icon {
-    width: 63px;
-    height: 63px;
-    background: url(../img/social-icons.png) -126px 63px;
+    width: 37px;
+    height: 37px;
+    background: url(../img/social-icons-37x37.png) -74px 37px;
 }
 
 .facebook-icon:hover {
-    width: 63px;
-    height: 63px;
-    background: url(../img/social-icons.png) -126px 0;
+    width: 37px;
+    height: 37px;
+    background: url(../img/social-icons-37x37.png) -74px 0;
 }
 
 /* instagram */
 .instagram-icon {
-    width: 63px;
-    height: 63px;
-    background: url(../img/social-icons.png) -189px 63px;
+    width: 37px;
+    height: 37px;
+    background: url(../img/social-icons-37x37.png) -111px 37px;
 }
 
 .instagram-icon:hover {
-    width: 63px;
-    height: 63px;
-    background: url(../img/social-icons.png) -189px 0;
+    width: 37px;
+    height: 37px;
+    background: url(../img/social-icons-37x37.png) -111px 0;
 }
 
 /* twitter */
 .twitter-icon {
-    width: 63px;
-    height: 63px;
-    background: url(../img/social-icons.png) -252px 63px;
+    width: 37px;
+    height: 37px;
+    background: url(../img/social-icons-37x37.png) -148px 37px;
 }
 
 .twitter-icon:hover {
-    width: 63px;
-    height: 63px;
-    background: url(../img/social-icons.png) -252px 0;
+    width: 37px;
+    height: 37px;
+    background: url(../img/social-icons-37x37.png) -148px 0;
 }
 
 /* youtube */
 .youtube-icon {
-    width: 63px;
-    height: 63px;
-    background: url(../img/social-icons.png) -315px 63px;
+    width: 37px;
+    height: 37px;
+    background: url(../img/social-icons-37x37.png) -185px 37px;
 }
 
 .youtube-icon:hover {
-    width: 63px;
-    height: 63px;
-    background: url(../img/social-icons.png) -315px 0;
+    width: 37px;
+    height: 37px;
+    background: url(../img/social-icons-37x37.png) -185px 0;
 }
 
 /* vimeo */
 .vimeo-icon {
-    width: 63px;
-    height: 63px;
-    background: url(../img/social-icons.png) -378px 63px;
+    width: 37px;
+    height: 37px;
+    background: url(../img/social-icons-37x37.png) -222px 37px;
 }
 
 .vimeo-icon:hover {
-    width: 63px;
-    height: 63px;
-    background: url(../img/social-icons.png) -378px 0;
+    width: 37px;
+    height: 37px;
+    background: url(../img/social-icons-37x37.png) -222px 0;
 }
-
-
 
 /* Footer */
 footer {
@@ -212,7 +203,7 @@ footer {
     height: 20px;
     width: 100%;
     overflow:hidden;
-    background-color: orange;
+    background-color: #141c24;
 }
 
 footer p {
@@ -224,20 +215,8 @@ footer p {
 }
 
 
-
-@media (min-width: 375px) {
-    body {
-       color: #000; 
-    }
-}
-
-
-
+/*Media queries*/
 @media (min-width: 480px) and (orientation: landscape) {
-    body {
-       color: #ff0; 
-    }
-    
     .big-top-margin {
         margin-top: 10vh;
     }
@@ -247,21 +226,8 @@ footer p {
     }
 }
 
-
-
- /*Generic media queries*/
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) {
-    body {
-       color: #f00; 
-    }
-}
-
 /* Medium devices (tablets, 768px and up) */
 @media (min-width: 768px) {
-    body {
-       color: #0f0; 
-    }
     .big-top-margin {
         margin-top: 15vh;
     }
@@ -289,30 +255,193 @@ footer p {
         font-size: 25px;
     }
     
-    .bandcamp-test {
-        width: 50px;
-        height: 50px;
-        background: url(../img/bandcamp50px.png);
+    /* bandcamp */
+    .bandcamp-icon {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) 0 60px;
+    }
+
+    .bandcamp-icon:hover {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) 0 0;
+    }
+
+    /* soundcloud */
+    .soundcloud-icon {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -60px 60px;
+    }
+
+    .soundcloud-icon:hover {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -60px 0;
+    }
+
+    /* facebook */
+    .facebook-icon {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -120px 60px;
+    }
+
+    .facebook-icon:hover {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -120px 0;
+    }
+
+    /* instagram */
+    .instagram-icon {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -180px 60px;
+    }
+
+    .instagram-icon:hover {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -180px 0;
+    }
+
+    /* twitter */
+    .twitter-icon {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -240px 60px;
+    }
+
+    .twitter-icon:hover {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -240px 0;
+    }
+
+    /* youtube */
+    .youtube-icon {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -300px 60px;
+    }
+
+    .youtube-icon:hover {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -300px 0;
+    }
+
+    /* vimeo */
+    .vimeo-icon {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -360px 60px;
+    }
+
+    .vimeo-icon:hover {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -360px 0;
     }
 }
 
 /* Large devices (desktops, 992px and up) */
 @media (min-width: 992px) {
-    body {
-       color: #00f; 
+    /* bandcamp */
+    .bandcamp-icon {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) 0 60px;
     }
-    .bandcamp-test {
-        width: 50px;
-        height: 50px;
-        background: url(../img/bandcamp50px.png);
+
+    .bandcamp-icon:hover {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) 0 0;
+    }
+
+    /* soundcloud */
+    .soundcloud-icon {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -60px 60px;
+    }
+
+    .soundcloud-icon:hover {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -60px 0;
+    }
+
+    /* facebook */
+    .facebook-icon {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -120px 60px;
+    }
+
+    .facebook-icon:hover {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -120px 0;
+    }
+
+    /* instagram */
+    .instagram-icon {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -180px 60px;
+    }
+
+    .instagram-icon:hover {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -180px 0;
+    }
+
+    /* twitter */
+    .twitter-icon {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -240px 60px;
+    }
+
+    .twitter-icon:hover {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -240px 0;
+    }
+
+    /* youtube */
+    .youtube-icon {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -300px 60px;
+    }
+
+    .youtube-icon:hover {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -300px 0;
+    }
+
+    /* vimeo */
+    .vimeo-icon {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -360px 60px;
+    }
+
+    .vimeo-icon:hover {
+        width: 60px;
+        height: 60px;
+        background: url(../img/social-icons-60x60.png) -360px 0;
     }
 }
 
-@media (min-width: 992px) and (orientation: landscape) {
-    body {
-       color: #0ff;
-    }
-    
+@media (min-width: 992px) and (orientation: landscape) { 
     .big-top-margin {
         margin-top: 15vh;
     }
@@ -340,20 +469,10 @@ footer p {
     .huge-text {
         font-size: 25px;
     }
-    
-    .bandcamp-test {
-        width: 50px;
-        height: 50px;
-        background: url(../img/bandcamp50px.png);
-    }
 }
 
 /* Extra large devices (large desktops, 1200px and up) */
-@media (min-width: 1200px) {
-    body {
-       color: #ff0; 
-    }
-    
+@media (min-width: 1200px) {   
     /* Margins */
     .big-top-margin {
         margin-top: 15vh;
@@ -395,20 +514,4 @@ footer p {
     .huge-kerning {
         letter-spacing: 2px;
     }
-    
-    .bandcamp-test {
-        width: 50px;
-        height: 50px;
-        background: url(../img/bandcamp50px.png);
-    }
-}
-
-
-
-
-
-
-
-
-
-    
+}  
