@@ -203,14 +203,12 @@ footer {
     height: 20px;
     width: 100%;
     overflow:hidden;
-    background-color: #141c24;
 }
 
 footer p {
     font-size: 8px;
     letter-spacing: 0px;
     color: #416b7d;
-    text-transform: uppercase;
     text-align: center;
 }
 
@@ -514,4 +512,4 @@ footer p {
     .huge-kerning {
         letter-spacing: 2px;
     }
-}  
+}
