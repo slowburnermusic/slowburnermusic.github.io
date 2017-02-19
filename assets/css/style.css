@@ -41,6 +41,10 @@ li a {
     height: 100%;
 }
 
+sup {
+    text-transform: lowercase;
+}
+
 /* Generic */
 .capital-letters {
     text-transform: uppercase;
