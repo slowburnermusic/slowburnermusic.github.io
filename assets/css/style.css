@@ -157,7 +157,7 @@ hr {
 footer {
     position: absolute;
     left: 0;
-    bottom: 0;
+    bottom: unset;
     height: 20px;
     width: 100%;
     overflow:hidden;
@@ -206,6 +206,10 @@ footer p {
 
     .piano {
         display: block;
+    }
+
+    footer {
+        bottom: 0;
     }
 }
 
