@@ -136,6 +136,7 @@ hr {
     opacity: 0.17;
     left: 0;
     display: none;
+    z-index: -1;
 }
 
 /* Social icons*/
@@ -151,6 +152,10 @@ hr {
 
 .social-links li {
     padding-right: 15px;
+}
+
+.patreon {
+    width: 35%;
 }
 
 /* Footer */
@@ -188,6 +193,7 @@ footer p {
     .piano {
         display: block;
     }
+
 }
 
 @media (min-width: 992px) and (orientation: landscape) { 
@@ -210,6 +216,10 @@ footer p {
 
     footer {
         bottom: 0;
+    }
+
+    .patreon {
+        width: 25%;
     }
 }
 
